@@ -1,8 +1,6 @@
 <?php
-
+require_once "./vendor/autoload.php";
 require 'functions.php';
-require 'classes/Box.php';
-require 'classes/User.php';
 
 
 echo addNumbers(5,5);
